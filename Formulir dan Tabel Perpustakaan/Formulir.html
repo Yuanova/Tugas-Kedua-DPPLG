@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>𓍢ִ໋ 🦋✧˚Formulir Anggota Perpustakaan𓍢ִ໋ 🦋✧˚</title>
+    <link rel="stylesheet" href="MALES.css" />
+  </head>
+  <body>
+    <section class="formulir">
+        <h2>𓍢ִ໋ 🦋✧˚Formulir Anggota Perpustakaan𓍢ִ໋ 🦋✧˚</h2>
+        <hr>
+        <form action="#" method="post">
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" placeholder="ketikan nama kamu">
+            <br>
+            <label for="nama">Kota Lahir</label>
+            <br>
+            <input type="text" list="kota_lahir" name="ketik/pilih kota lahirmu" placeholder="ketik/pilih kota lahirmu">
+            <datalist id="kota_lahir">
+                <option value="Semarang">Semarang</option>
+                <option value="Purbalingga">Purbalingga</option>
+                <option value="Balikpapan">Balikpapan</option>
+                <option value="Madura">Madura</option>
+                <option value="Klaten">Klaten</option>
+                <option value="Boyolali">Boyolali</option>
+            </datalist>
+            <br>
+            <label for="tanggal_lahir">Tanggal Lahir</label>
+            <br>
+            <input type="date" id="tanggal_lahir" name="tanggal_lahir">
+            <br>
+            <label for="gender">Gender</label>
+            <br>
+            <input type="radio" name="Gender" value="Wanita"> Wanita
+            <input type="radio" name="Gender" value="Pria"> Pria
+            <br>
+            <label for="NomorTelepon">Nomor Telepon</label>
+            <br>
+            <input type="number" id="NomorTelepon" name="NomorTelepon" placeholder="+6285600077745">
+            <br>
+            <label for="Makanan">Makanan Favorit</label>
+            <br>
+            <input type="checkbox" value="Nasi Goreng">Nasi Goreng 
+            <input type="checkbox" value="Mie Goreng">Mie Goreng
+            <br>
+            <label for="Agama">Agama</label>
+            <br>
+            <select name="Agama" id="Agama">
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Katolik">Katolik</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+                <option value="Konghucu">Konghucu</option>
+            </select>
+            <br>
+            <label for="Alamat">Alamat</label>
+            <br>
+            <textarea name="Alamat" id="Alamat" placeholder="Alamat Rumah"></textarea>
+            <br>
+            <section class="button-container">
+                <button type="button" onclick="this.form.reset()">Clear</button>
+                <button type="submit">Send</button>
+            </section>
+        </form>
+    </section>
+  </body>
+</html>
